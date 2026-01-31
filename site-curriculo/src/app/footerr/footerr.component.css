@@ -1,0 +1,20 @@
+.rodape {
+    position: relative;
+    border-top: 1px solid aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.whats-button {
+    position: fixed; /*após definir o position fixed, definir onde vai ficar: top ou bottom*/
+    right: 20px;
+    bottom: 20px;
+}
+
+.wpp-img {
+    width: 5rem;
+}
+
+.logo-link {
+    width: 30px;
+}

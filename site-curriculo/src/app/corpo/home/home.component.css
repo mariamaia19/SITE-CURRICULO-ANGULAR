@@ -1,0 +1,99 @@
+.principal h1 {
+    font-family: var(--fonte__texto__um);
+    font-size: 10rem;
+    text-align: center;
+    color: var(--cor__texto__um);
+    text-shadow: 2px 1px 20px rgb(145, 144, 144);
+}
+
+.saudacao, .projetos {
+    
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.descricao  {
+    width: 70%;
+    min-height: 80vh;
+    border-radius: 20px;
+    box-shadow: 2px 1px 20px rgb(145, 144, 144);
+    background-color: rgb(41, 41, 41);
+
+}
+
+.descricao h4, p {
+    font-family: var(--fonte__codigo);
+    text-align:left;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.descricao h4 {
+    font-size: 3rem;
+    color: var(--cor__texto__um);
+    text-shadow: 1px 2px 5px rgb(73, 72, 72);
+    margin-top: 10%;
+}
+
+.descricao p {
+    font-size: 1.5rem;
+    white-space: pre-wrap;
+    color: var(--cor__texto__um);
+    margin-top: 4%;
+}
+
+.foto {
+    display: flex;
+    justify-content: end;
+}
+
+.foto-apresentacao {
+    width: 50%;
+    height: 70%;
+    border: 2px solid white;
+}
+
+.janela {
+    height: 10vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: grey;
+    
+}
+
+.bolinha {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 3%;
+}
+
+#vermelha {
+    border: 1px solid red;
+    background-color: red;
+}
+
+#amarela {
+    border: 1px solid rgb(236, 218, 27);
+    background-color: rgb(236, 218, 27);
+}
+
+#verde {
+    border: 1px solid rgb(6, 223, 6);
+    background-color: rgb(4, 181, 4);
+}
+
+.texto-diferente {
+    color: var(--cor__texto__um);
+    font-weight: 600;
+    text-shadow: 1px 2px 5px rgb(73, 72, 72);
+}
