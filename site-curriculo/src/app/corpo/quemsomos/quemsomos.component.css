@@ -140,3 +140,73 @@
     border-bottom-right-radius: 10px;
     text-align: center;
 }
+
+/*mediaquery*/
+
+@media (max-width: 768px) {
+
+    .saudacao {
+        width: 100%;
+        min-height: 70vh;
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apresentacao {
+        width: 90%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: space-around;
+        gap: 1em;
+        margin-bottom: 10%;
+    }
+
+    .foto {
+        display: block;
+        width: 80%;
+    }
+
+    .foto-apresentacao {
+        width: 100%;
+        height: 70%;
+    }
+
+    .cursos {
+        margin-top: 5%;
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    .accordion {
+        width: 90%;
+        margin: auto;
+    }
+
+    .accordion h3 {
+        font-size: 1rem;
+    }
+
+    .projetos-container {
+        margin-top: 10%;
+        width: 100%;
+        min-height: 70vh;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .projeto {
+        width: 90%;
+        height: 300px;
+    }
+
+    .projeto p {
+        font-size: 1.2rem;
+    
+    }
+}

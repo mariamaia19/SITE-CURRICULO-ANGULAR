@@ -32,29 +32,11 @@
     margin-left: 2%;
 }
 
-.descricao h4 {
-    font-size: 3rem;
-    color: var(--cor__texto__um);
-    text-shadow: 1px 2px 5px rgb(73, 72, 72);
-    margin-top: 10%;
-}
-
 .descricao p {
     font-size: 1.5rem;
     white-space: pre-wrap;
     color: var(--cor__texto__um);
     margin-top: 4%;
-}
-
-.foto {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.foto-apresentacao {
-    width: 50%;
-    height: 70%;
-    border: 2px solid white;
 }
 
 .janela {
@@ -96,4 +78,34 @@
     color: var(--cor__texto__um);
     font-weight: 600;
     text-shadow: 1px 2px 5px rgb(73, 72, 72);
+}
+
+/*mediaqueries*/
+
+@media (max-width: 768px) {
+   .principal h1 {
+    font-size: 4rem;
+    
+    }
+
+    .janela {
+        height: 5vh;
+        width: 100%;
+    }
+
+    .bolinha {
+        width: 10px;
+        height: 10px;
+    }
+
+    .descricao  {
+        width: 90%;
+        min-height: 55vh;
+    }
+
+    .descricao p {
+        font-size: 1rem;
+    
+    }
+
 }
