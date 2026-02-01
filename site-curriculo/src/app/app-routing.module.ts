@@ -5,9 +5,10 @@ import { QuemsomosComponent } from './corpo/quemsomos/quemsomos.component';
 import { ProjetosComponent } from './corpo/projetos/projetos.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
+  {path: '', component: HomeComponent},
   {path: 'quemsou', component: QuemsomosComponent},
-  {path:'projetos', component: ProjetosComponent}
+  { path: '**', redirectTo: '' }
+  //{path:'projetos', component: ProjetosComponent}
 ];
 
 @NgModule({
