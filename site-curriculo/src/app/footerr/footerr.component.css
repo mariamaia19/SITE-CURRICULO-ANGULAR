@@ -1,18 +1,17 @@
+.footer-line {
+    margin-top: 10%;
+    width: 90%;
+    border: 1px solid var(--cor__texto__um);
+    margin-left: 5%;
+    box-shadow: 2px 2px 40px rgb(231, 230, 230);
+}
+
 .rodape {
     position: relative;
-    border-top: 1px solid aliceblue;
+    margin-top: 2%;
+    margin-bottom: 2%;
     display: flex;
     justify-content: center;
-}
-
-.whats-button {
-    position: fixed; /*após definir o position fixed, definir onde vai ficar: top ou bottom*/
-    right: 20px;
-    bottom: 20px;
-}
-
-.wpp-img {
-    width: 5rem;
 }
 
 .logo-link {

@@ -19,3 +19,19 @@ main {
     backdrop-filter: blur(10px);
 
 }
+
+.whats-button {
+    position: fixed; /*após definir o position fixed, definir onde vai ficar: top ou bottom*/
+    right: 5px;
+    bottom: 10px;
+}
+
+.wpp-img {
+    width: 5rem;
+}
+
+.nota-rodape
+ {
+    font-size: 1rem;
+    color: var(--cor__texto__um);
+}

@@ -93,11 +93,9 @@
 
 .projetos {
     min-height: 70vh;
-    border: 2px solid black;
 }
 
 .projetos-container {
-    border: 1px solid red;
     width: 100%;
     min-height: 70vh;
     display: flex;
