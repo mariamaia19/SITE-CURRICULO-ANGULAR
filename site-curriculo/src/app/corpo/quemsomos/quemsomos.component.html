@@ -103,18 +103,19 @@ responsivo</li>
 </section>
 <section class="projetos">
     <h1>Meus Projetos</h1>
+    <ul>
+        <li>
+
+        </li>
+    </ul>
     <div class="projetos-container">
-        <div class="projeto">
-            <a href="https://mariamaia19.github.io/Mini-Projeto-Escola/" target="_blank"><img src="assets/imagens-banco/Captura de tela 2026-01-30 210026.png"></a>
-            <p>Acesse Aqui o Projeto</p>
+        <div class="projeto" *ngFor="let item of projetos">
+            <img [src]= "item.imagem">
+            <div class="projeto-descricao"> 
+                <h2>{{item.descricao}}</h2>
+                <a [href]="item.link" target="_blank" rel="noopener"><button>Acesse Aqui o Projeto</button></a>
+            </div>
         </div>
-        <div class="projeto">
-            <a href="#"><img src="assets/imagens-banco/Captura de tela 2026-01-30 211127.png"></a>
-            <p>Em breve no meu GitHub</p>
-        </div>
-        <div class="projeto">
-            <a href="#"><img src="assets/imagens-banco/Captura de tela 2026-01-31 183951.png"></a>
-            <p>Meu Web-Curriculum</p>
-        </div>
+       
     </div>
 </section>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Projetos, projetos } from './projetoslista';
 
 @Component({
   selector: 'app-quemsomos',
@@ -12,4 +13,6 @@ export class QuemsomosComponent {
   
   Atualmente, estou buscando minha primeira oportunidade como programadora Front-End, seja em estágio ou como Dev Júnior, com o intuito de aprender mais e me desenvolver na área.`
   
+
+  projetos: Projetos[] = projetos;
 }
